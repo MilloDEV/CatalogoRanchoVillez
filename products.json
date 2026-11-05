@@ -1,0 +1,326 @@
+{
+ "_nota": "Cada producto: name, desc, price (número, ej. 25000; null = 'Consultar'), options (lista de etiquetas), images (lista; la primera es la portada), focus (opcional, posición de la portada en la tarjeta), who (opcional: Hombre/Mujer/Unisex), badge (opcional).",
+ "categories": [
+  {
+   "id": "jeans",
+   "name": "Jeans",
+   "blurb": "Corte vaquero con las costuras que se reconocen a la legua.",
+   "items": [
+    {
+     "name": "Jeans Wrangler Retro",
+     "who": "Hombre",
+     "desc": "Corte bota, ajustado atrás y con las costuras icónicas en W.",
+     "price": null,
+     "options": [
+      "Talla 29W × 32L"
+     ],
+     "images": [
+      "images/jeans-wrangler-retro-1.jpg",
+      "images/jeans-wrangler-retro-2.jpg",
+      "images/jeans-wrangler-retro-3.jpg",
+      "images/jeans-wrangler-retro-4.jpg",
+      "images/jeans-wrangler-retro-5.jpg"
+     ],
+     "focus": "50% 62%"
+    },
+    {
+     "name": "Jeans Wrangler Retro Ajustado",
+     "who": "Hombre",
+     "desc": "Corte bota, tiro bajo, ajustado en el trasero y el muslo. Costuras icónicas en W y estilo de cinco bolsillos.",
+     "price": null,
+     "options": [
+      "Talla 34W × 32L",
+      "Lavado oscuro"
+     ],
+     "images": [
+      "images/jeans-wrangler-retro-oscuro-1.jpg",
+      "images/jeans-wrangler-retro-oscuro-2.jpg",
+      "images/jeans-wrangler-retro-oscuro-3.jpg",
+      "images/jeans-wrangler-retro-oscuro-4.jpg",
+      "images/jeans-wrangler-retro-oscuro-5.jpg"
+     ],
+     "focus": "50% 62%"
+    },
+    {
+     "name": "Jeans Wrangler Retro Bailey",
+     "who": "Mujer",
+     "desc": "Tiro alto y corte bota, con el parche de cuero Wrangler y las costuras en W en los bolsillos traseros.",
+     "price": null,
+     "options": [
+      "Talla 28W × 34L (S)",
+      "Tiro alto",
+      "Lavado oscuro"
+     ],
+     "images": [
+      "images/jeans-wrangler-bailey-1.jpg",
+      "images/jeans-wrangler-bailey-2.jpg",
+      "images/jeans-wrangler-bailey-3.jpg",
+      "images/jeans-wrangler-bailey-4.jpg"
+     ],
+     "focus": "50% 22%"
+    },
+    {
+     "name": "Jeans Peihot Corte Bota",
+     "who": "Mujer",
+     "desc": "Mezclilla elástica en lavado oscuro, tiro medio y corte de bota, con bolsillos traseros bordados.",
+     "price": null,
+     "options": [
+      "Talla 2–4 (XS–S)",
+      "Lavado oscuro",
+      "Elásticos",
+      "Bolsillos bordados"
+     ],
+     "images": [
+      "images/jeans-peihot-bordado-1.jpg",
+      "images/jeans-peihot-bordado-2.jpg",
+      "images/jeans-peihot-bordado-3.jpg"
+     ],
+     "focus": "50% 40%"
+    }
+   ]
+  },
+  {
+   "id": "camisas",
+   "name": "Camisas",
+   "blurb": "Manga larga, con estilo vaquero y mucha elegancia.",
+   "items": [
+    {
+     "name": "Camisa Wrangler Manga Larga",
+     "who": "Mujer",
+     "desc": "Camisa elegante de manga larga en un hermoso color vino.",
+     "price": null,
+     "options": [
+      "Talla M",
+      "Color vino"
+     ],
+     "images": [
+      "images/camisa-mujer-vino-1.jpg",
+      "images/camisa-mujer-vino-2.jpg",
+      "images/camisa-mujer-vino-3.jpg"
+     ],
+     "focus": "50% 30%"
+    },
+    {
+     "name": "Camisa Wrangler Manga Larga",
+     "who": "Hombre",
+     "desc": "Camisa elegante color vino, con broches y estilo vaquero.",
+     "price": null,
+     "options": [
+      "Talla L",
+      "Color vino"
+     ],
+     "images": [
+      "images/camisa-hombre-vino-1.jpg",
+      "images/camisa-hombre-vino-2.jpg",
+      "images/camisa-hombre-vino-3.jpg"
+     ],
+     "focus": "50% 25%"
+    },
+    {
+     "name": "Camisa Ariat Team Kirby",
+     "who": "Mujer",
+     "desc": "Camisa elástica de manga larga en color rosa, con el logo Ariat bordado en la manga.",
+     "price": null,
+     "options": [
+      "Talla S",
+      "Elástica",
+      "Color rosa"
+     ],
+     "images": [
+      "images/camisa-ariat-rosa-1.jpg",
+      "images/camisa-ariat-rosa-2.jpg"
+     ],
+     "focus": "50% 30%"
+    },
+    {
+     "name": "Camisa Ariat Team Logo",
+     "who": "Hombre",
+     "desc": "Camisa de sarga de manga larga con el logo Ariat bordado en el cuello y a lo largo de la manga.",
+     "price": null,
+     "options": [
+      "Talla M",
+      "Color gris",
+      "Sarga"
+     ],
+     "images": [
+      "images/camisa-ariat-team-logo-1.jpg",
+      "images/camisa-ariat-team-logo-2.jpg",
+      "images/camisa-ariat-team-logo-3.jpg",
+      "images/camisa-ariat-team-logo-4.jpg"
+     ],
+     "focus": "50% 30%"
+    }
+   ]
+  },
+  {
+   "id": "botas",
+   "name": "Botas",
+   "blurb": "Para caminar la finca de sol a sol.",
+   "items": [
+    {
+     "name": "Botas de Trabajo Ariat Rebar Flex",
+     "who": "Hombre",
+     "desc": "Bota de trabajo estilo western, modelo Venttek Incognito.",
+     "price": null,
+     "options": [
+      "Talla 9.5 (42–43)"
+     ],
+     "images": [
+      "images/botas-ariat-rebar-flex-1.jpg",
+      "images/botas-ariat-rebar-flex-2.jpg",
+      "images/botas-ariat-rebar-flex-3.jpg"
+     ],
+     "focus": "50% 55%"
+    },
+    {
+     "name": "Botas Western Ariat Delilah",
+     "who": "Mujer",
+     "desc": "Botas western con bordado decorativo y ajuste StretchFit.",
+     "price": null,
+     "options": [
+      "Talla 6.5 (36–37)"
+     ],
+     "images": [
+      "images/botas-ariat-delilah-1.jpg",
+      "images/botas-ariat-delilah-2.jpg",
+      "images/botas-ariat-delilah-3.jpg",
+      "images/botas-ariat-delilah-4.jpg"
+     ],
+     "focus": "50% 55%"
+    }
+   ]
+  },
+  {
+   "id": "fajas",
+   "name": "Fajas",
+   "blurb": "Cuero y metal para rematar el atuendo.",
+   "items": [
+    {
+     "name": "Faja Hebilla de Caballo",
+     "who": "Unisex",
+     "desc": "Cinturón de cuero con hebilla occidental. Vaquera y elegante.",
+     "price": null,
+     "options": [
+      "Talla S/M",
+      "Hebilla removible"
+     ],
+     "images": [
+      "images/faja-vaquera-hebilla-caballo-1.jpg",
+      "images/faja-vaquera-hebilla-caballo-2.jpg",
+      "images/faja-vaquera-hebilla-caballo-3.jpg"
+     ]
+    },
+    {
+     "name": "Faja Bison Denim Occidental",
+     "who": "Hombre",
+     "desc": "Cinturón vaquero occidental con hebilla grande grabada y en relieve, de cabeza de toro. Correa ajustable.",
+     "price": null,
+     "options": [
+      "Talla 33–36 (M–L)",
+      "Correa ajustable"
+     ],
+     "images": [
+      "images/faja-bison-denim-longhorn-1.jpg",
+      "images/faja-bison-denim-longhorn-2.jpg",
+      "images/faja-bison-denim-longhorn-3.jpg"
+     ]
+    },
+    {
+     "name": "Faja Hebilla Flor Diamante",
+     "who": "Mujer",
+     "desc": "Cinturón vaquero con grabado occidental y hebilla plateada con relieve de flores.",
+     "price": null,
+     "options": [
+      "Tallas S · M · L",
+      "Hebilla plateada",
+      "Color café"
+     ],
+     "images": [
+      "images/faja-flor-diamante-1.jpg",
+      "images/faja-flor-diamante-2.jpg",
+      "images/faja-flor-diamante-3.jpg"
+     ],
+     "focus": "50% 50%"
+    },
+    {
+     "name": "Faja Chaoren Cuero de Grano",
+     "who": "Hombre",
+     "desc": "Cinturón casual para jeans, de cuero de grano con grabado de hojas, doble costura y hebilla metálica envejecida.",
+     "price": null,
+     "options": [
+      "Tallas S · M",
+      "Cuero de grano",
+      "Color café"
+     ],
+     "images": [
+      "images/faja-chaoren-cuero-1.jpg",
+      "images/faja-chaoren-cuero-2.jpg"
+     ],
+     "focus": "50% 65%"
+    }
+   ]
+  },
+  {
+   "id": "gorras",
+   "name": "Gorras",
+   "blurb": "Para el sol y para el estilo.",
+   "items": [
+    {
+     "name": "Gorra Camuflaje Bandera USA",
+     "who": "Unisex",
+     "desc": "Bandera USA en relieve, malla transpirable y calidad premium.",
+     "price": null,
+     "options": [
+      "Camuflaje",
+      "Malla transpirable"
+     ],
+     "images": [
+      "images/gorra-camuflaje-usa-1.jpg",
+      "images/gorra-camuflaje-usa-2.jpg",
+      "images/gorra-camuflaje-usa-3.jpg",
+      "images/gorra-camuflaje-usa-4.jpg"
+     ],
+     "focus": "50% 50%"
+    },
+    {
+     "name": "Gorra Encerada Bandera Americana",
+     "who": "Unisex",
+     "desc": "Gorra de tela encerada con parche de la bandera americana, ajuste americano y cierre regulable atrás.",
+     "price": null,
+     "options": [
+      "Ajuste americano",
+      "Color café",
+      "Tela encerada"
+     ],
+     "images": [
+      "images/gorra-encerada-usa-2.jpg",
+      "images/gorra-encerada-usa-1.jpg",
+      "images/gorra-encerada-usa-3.jpg"
+     ],
+     "focus": "50% 50%"
+    }
+   ]
+  },
+  {
+   "id": "accesorios",
+   "name": "Accesorios",
+   "blurb": "Los detalles que hacen al vaquero.",
+   "items": [
+    {
+     "name": "Porta Teléfono Rústico",
+     "desc": "Funda para celular estilo rústico en color café, con diseño elegante y práctico.",
+     "price": null,
+     "options": [
+      "Tamaño largo",
+      "Color café",
+      "18 × 9.5 × 4 cm"
+     ],
+     "images": [
+      "images/porta-telefono-cuero-1.jpg",
+      "images/porta-telefono-cuero-2.jpg"
+     ]
+    }
+   ]
+  }
+ ]
+}

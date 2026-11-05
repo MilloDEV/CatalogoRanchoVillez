@@ -1,0 +1,17 @@
+{
+  "brand": "Rancho Villéz",
+  "kicker": "Catálogo 2026",
+  "tagline": "Accesorios vaqueros con alma de rancho",
+  "intro": "Cuero, metal y madera para el que vive el campo de verdad.",
+  "whatsapp": "50600000000",
+  "whatsapp_display": "+506 0000 0000",
+  "instagram": "@tu.instagram",
+  "facebook": "Rancho Villéz",
+  "location": "Costa Rica",
+  "currency": "₡",
+  "steps": [
+    {"t": "Elegí", "d": "Mirá el catálogo y escogé lo que más te guste."},
+    {"t": "Escribinos", "d": "Tocá “Pedir” y nos llega tu mensaje por WhatsApp."},
+    {"t": "Recibilo", "d": "Coordinamos pago y entrega con vos."}
+  ]
+}
