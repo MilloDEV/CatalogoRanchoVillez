@@ -1,0 +1,62 @@
+{
+  "_nota": "Combos: cada combo lleva name, desc, items (lista de ids de products.json), price (precio del combo; null = 'Consultar precio'), y opcional regular (precio normal; si se omite se suma de los productos cuando todos tienen precio). 'draft': true lo oculta de la página.",
+  "titulo": "Combos",
+  "blurb": "Armamos el look completo y te lo dejamos a mejor precio.",
+  "combos": [
+    {
+      "id": "combo-reina-del-rancho",
+      "tag": "Para ella",
+      "name": "Reina del Rancho",
+      "desc": "Botas bordadas y faja con hebilla plateada de flores: el dúo que no pasa desapercibido.",
+      "items": [
+        "botas-western-ariat-delilah-mujer",
+        "faja-hebilla-flor-diamante-mujer"
+      ],
+      "price": null
+    },
+    {
+      "id": "combo-patrulla-gris",
+      "tag": "Para él",
+      "name": "Patrulla Gris",
+      "desc": "Camisa de sarga gris y gorra camuflaje con bandera: look sobrio, de los que van a todo.",
+      "items": [
+        "camisa-ariat-team-logo-hombre",
+        "gorra-camuflaje-bandera-usa-unisex"
+      ],
+      "price": null
+    },
+    {
+      "id": "combo-pata-de-toro",
+      "tag": "Para él",
+      "name": "Pata de Toro",
+      "desc": "Botas de trabajo que aguantan el día entero y una faja con hebilla de longhorn.",
+      "items": [
+        "botas-de-trabajo-ariat-rebar-flex-hombre",
+        "faja-bison-denim-occidental-hombre"
+      ],
+      "price": null
+    },
+    {
+      "id": "combo-jinete-conectado",
+      "tag": "Para todos",
+      "name": "Jinete Conectado",
+      "desc": "Faja con caballo al galope y porta-teléfono de cuero: el celular siempre a mano.",
+      "items": [
+        "faja-hebilla-de-caballo-unisex",
+        "porta-telefono-rustico"
+      ],
+      "price": null
+    },
+    {
+      "id": "combo-match-vino-tinto",
+      "tag": "Pareja",
+      "name": "Match Vino Tinto",
+      "desc": "Camisas Wrangler en vino tinto, una para él y una para ella: combinan sin ponerse de acuerdo.",
+      "items": [
+        "camisa-wrangler-manga-larga-hombre",
+        "camisa-wrangler-manga-larga-mujer"
+      ],
+      "price": null
+    }
+  ]
+}
