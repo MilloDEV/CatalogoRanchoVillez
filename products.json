@@ -311,25 +311,6 @@
      ],
      "focus": "50% 50%",
      "badge": "Premium"
-    },
-    {
-     "id": "gorra-encerada-bandera-americana-unisex",
-     "name": "Gorra Encerada Bandera Americana",
-     "who": "Unisex",
-     "desc": "Gorra de tela encerada con parche de la bandera americana, ajuste americano y cierre regulable atrás.",
-     "price": null,
-     "options": [
-      "Ajuste americano",
-      "Color café",
-      "Tela encerada"
-     ],
-     "images": [
-      "images/gorra-encerada-usa-2.jpg",
-      "images/gorra-encerada-usa-1.jpg",
-      "images/gorra-encerada-usa-3.jpg"
-     ],
-     "focus": "50% 50%",
-     "badge": "Premium"
     }
    ]
   },

@@ -15,6 +15,9 @@ def load(name):
 
 site = load("site.json")
 data = load("products.json")
+if not os.environ.get("PREVIEW"):
+    for _c in data["categories"]:
+        _c["items"] = [_i for _i in _c["items"] if not _i.get("draft")]
 combos_data = load("combos.json") if os.path.exists(os.path.join(ROOT, "combos.json")) else {"combos": []}
 PREVIEW = os.environ.get("PREVIEW") == "1"   # PREVIEW=1 muestra también los combos marcados como borrador
 by_id = {it["id"]: it for c in data["categories"] for it in c["items"] if it.get("id")}
