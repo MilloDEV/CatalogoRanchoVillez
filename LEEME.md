@@ -33,7 +33,7 @@ Mandale las fotos y la info a Claude. Después, en el repositorio: **Add file �
 En 1–2 minutos se actualiza el link.
 
 ## Datos que se cambian en `site.json`
-WhatsApp (con código de país, sin signos: `50684507930`), Instagram, TikTok, Facebook y ubicación.
+WhatsApp (con código de país, sin signos: `50686424122`), Instagram, TikTok, Facebook y ubicación.
 Los productos están en `products.json` (precio: poné el número, por ejemplo `15000`; si es `null` dice "Consultar precio").
 Para regenerar: `python3 build.py` (página y 404) y `python3 make_pdf.py` (PDF).
 
