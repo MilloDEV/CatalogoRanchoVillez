@@ -36,3 +36,8 @@ En 1–2 minutos se actualiza el link.
 WhatsApp (con código de país, sin signos: `50684507930`), Instagram, TikTok, Facebook y ubicación.
 Los productos están en `products.json` (precio: poné el número, por ejemplo `15000`; si es `null` dice "Consultar precio").
 Para regenerar: `python3 build.py` (página y 404) y `python3 make_pdf.py` (PDF).
+
+## Vista previa al compartir el link
+Al mandar el link por WhatsApp/Instagram/Facebook sale la imagen `assets/img/og.jpg` (1200×630) con el logo.
+- La dirección del sitio está en `site.json` → `site_url`. Si cambia (dominio propio), actualizarla y correr `python3 build.py`.
+- WhatsApp y Facebook guardan la vista previa en caché: si ya mandaron el link antes, puede tardar o verse la vieja. Para forzar: https://developers.facebook.com/tools/debug/ → pegar el link → "Scrape Again".

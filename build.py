@@ -446,9 +446,22 @@ page = f"""<!DOCTYPE html>
 <title>{esc(site['brand'])} · Catálogo de accesorios vaqueros</title>
 <meta name="description" content="{esc(site['tagline'])}. Catálogo de {esc(site['brand'])}.">
 <meta name="theme-color" content="#140b05">
-<meta property="og:title" content="{esc(site['brand'])} · Catálogo">
-<meta property="og:description" content="{esc(site['tagline'])}">
-<meta property="og:image" content="assets/img/hero.jpg">
+<link rel="canonical" href="{esc(site.get('site_url',''))}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{esc(site['brand'])}">
+<meta property="og:locale" content="es_CR">
+<meta property="og:url" content="{esc(site.get('site_url',''))}">
+<meta property="og:title" content="{esc(site['brand'])} · Catálogo 2026">
+<meta property="og:description" content="{esc(site['tagline'])}. Mirá el catálogo y pedí por WhatsApp.">
+<meta property="og:image" content="{esc(site.get('site_url',''))}assets/img/og.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Logo de {esc(site['brand'])} sobre un atardecer de rancho">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{esc(site['brand'])} · Catálogo 2026">
+<meta name="twitter:description" content="{esc(site['tagline'])}">
+<meta name="twitter:image" content="{esc(site.get('site_url',''))}assets/img/og.jpg">
 <link rel="preload" href="assets/fonts/rye-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="icon" href="{FAVICON}">
 <script>try{{if(!sessionStorage.getItem('rv_intro')&&!matchMedia('(prefers-reduced-motion: reduce)').matches&&!/[?&]nointro/.test(location.search)){{document.documentElement.className='rv-intro'}}}}catch(e){{}}</script>
